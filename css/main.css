@@ -1,0 +1,63 @@
+:root {
+  --theme-color: white;
+  --primary-color: #222222;
+  --secundary-color:#423F40;
+  --Third-color: #FFFFFF;
+  --fourth-color: #8E7BEF;
+  --fifth-color: #FCDA68;
+  --sixth-color: #000000cd;
+  --text-color-inverse: white;
+  --text-color: black;
+  --navbar-shollow-color:#e5e5e5;
+  --menu-mobile-background-color: #3A4460;
+  --negro-opaco: #504e4e;
+  --negro-semi-opaco: #1b1a1a70;
+  --iconos-color: #F95F2;
+}
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--theme-color);
+  color: var(--text-color);
+  padding-top: 150px;
+  margin: 0;  
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.horizontal-padding {
+  padding-left: 25px;
+  padding-right: 25px;
+ 
+}
+
+.vertical-padding {
+  padding-left: 100px;
+  padding-right: 25px;
+ 
+}
+
+@media(min-width: 950px){
+  
+
+.horizontal-padding {
+  padding-left: 70px;
+  padding-right: 70px;
+ 
+}
+
+.vertical-padding {
+  padding-left: 70px;
+  padding-right: 70px;
+
+}
+
+}
+
+
+
+
+
+

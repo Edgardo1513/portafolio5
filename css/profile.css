@@ -1,0 +1,282 @@
+
+/***********************************************************/
+/***********************************************************/
+/*               Dispoditvo Pc Escritorio                 */
+/***********************************************************/
+/***********************************************************/
+
+
+@media(max-width:950px) {
+
+  /************************/
+  /***Perfil-Botom**/
+  /**********************/
+  .profile-btn:hover {
+    filter: brightness(130%);
+  }
+  
+
+
+  /*********************************/
+  /***Separar Imagen-de-Iconos ****/
+  /********************************/
+  .profile-info {
+    margin-bottom: 0px;
+  }
+
+  /*--------------------------*/
+
+
+  /**************************/
+  /***Tamaño Imagen-Perfil***/
+  /**************************/
+  .profile-img {
+    width: 100%;
+    max-width: 350px;
+    transform: scale(1);
+
+  }
+
+  /*********************************/
+  /***Centrar Elemntos-Perfil****/
+  /********************************/
+  .profile {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 0 auto;
+    align-items: center;
+  }
+
+  /*--------------------------------*/
+
+  /*******************/
+  /***Diseño Titulo***/
+  /*******************/
+  .profile-title {
+    font-size: 60px;
+  }
+
+  /*--------------------------------*/
+
+  /*****************************/
+  /*******Detalle-Perfil*******/
+  /****************************/
+  .profile-details {
+    color: var(--primary-color);
+    font-size: 25px;
+    margin: 30px 0;
+  }
+
+  /*--------------------------*/
+
+  /*****************************/
+  /*******Perfil-Iconos********/
+  /****************************/
+  .profile-btn {
+    font-size: 28px;
+  }
+    /******************************/
+    /***Diseño Iconos red social***/
+    /*****************************/
+    .profile-social {
+      border-radius: 50px;
+      margin: 20px;
+      padding: 20px;
+      width: 20px;
+      background-color: var(--fourth-color)
+    }
+
+}
+  /*---------------------------*/
+
+
+
+/***********************************************************/
+/***********************************************************/
+/*                    Dispoditvo Movil                     */
+/***********************************************************/
+/***********************************************************/
+
+@import url('https://fonts.googleapis.com/css2? family=Inter+Tight:wght@600&family=Inter:wght@600&display=swap');
+
+/********--------------------********/
+/*************Perfil CV**************/
+/********--------------------********/
+
+/*********************************/
+/***Centrar Elemntos-Perfil****/
+/********************************/
+.profile {
+  text-align: center;
+}
+
+/*********************************/
+/***Separar Imagen-de-Iconos ****/
+/********************************/
+.profile-info {  
+  margin-bottom: 25px;    
+}
+
+/*******************/
+/***Diseño Titulo***/
+/*******************/
+.profile-title {
+  font-size: 80px;
+  font-weight: 700;
+  margin-top: 0;
+  color: var(--primary-color);
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  padding-left: 150px;
+}
+
+/**********************/
+/***Diseño Subtitulo1***/
+/**********************/
+.profile-subtitle {
+  font-size: 24px;
+  margin-top: 0;
+  color: var(--segudary-color);
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  padding-left: 80px;
+}
+/**********************/
+/***Diseño Subtitulo2***/
+/**********************/
+
+.profile-subtitle2 {
+  font-size: 24px;
+  font-weight: 100;
+  margin-top: 0;
+  color: var(--negro-opaco);
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  padding-left: 35px;
+}
+
+/***************************/
+/***Diseño Redes-sociales***/
+/**************************/
+.profile-btn2 {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin-left: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+
+
+}
+
+/******************************/
+/***Diseño Iconos red social***/
+/*****************************/
+
+.profile-social {
+  border-radius: 50px;
+  margin: 20px;
+  padding: 20px;
+  width: 20px;
+  background-color: var(--fourth-color)
+}
+
+
+/**************************/
+/***Seccion Imagen-secction***/
+/**************************/
+
+.profile-img-section {
+  position: relative;
+}
+
+/**************************/
+/***Tamaño Imagen-Perfil***/
+/**************************/
+.profile-img {
+  width: 80%;
+  max-width: 300px;
+  padding-left: 220px;
+}
+
+/********************************/
+/***Diseño-Tamaño-Boton*********/
+/******************************/
+
+.profile-btn3 {
+  background-color: #8773EE;
+  margin-left: 200px;
+  padding-right: 200px;
+  margin-top: 50px;
+  max-width: 375px;
+  border: none;
+  cursor: pointer;
+}
+
+h4 {
+  background-color: #8773EE;
+  font-size: 24px;
+  padding-top: 0.5px;
+  padding-bottom: 0.5px;
+  padding-left: 150px;
+  padding-right: 300px;
+  margin-left: 55px;
+  width: 50px;
+  color: #ffffff;
+}
+
+/*-------------------------*/
+
+/**************************/
+/***Seccion Imagen-linea***/
+/**************************/
+
+.profile-img-line {
+ height: 15px;
+ position: absolute;
+ width: 100%;
+ left: 0;
+ bottom: 0;
+}
+
+/*-------------------------*/
+span {
+  color: var(--fourth-color);
+}
+
+.fondo {
+  width: 80%;
+  max-width: 300px;
+}
+
+/*****************************/
+/*******Detalle-Perfil*******/
+/****************************/
+
+.profile-details {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.3;
+  max-width: 450px;
+  margin: 0 auto;
+
+
+}
+
+/***************************/
+/***Diseño Redes-sociales***/
+/**************************/
+.profile-btn {
+  display: flex-block;
+  background-color: var(--texto-color-inverse);
+  margin-left: 350px;
+  margin-right: 1px;
+  padding-left: 1px;
+  padding-right: 1px;
+  text-align: center;
+  max-width: 375px;
+}
+/**************************************************************/
+

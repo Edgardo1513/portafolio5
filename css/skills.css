@@ -1,0 +1,254 @@
+@media(min-width: 950px) {
+/********--------------------**********/
+/********Portafolio***********/
+/********--------------------**********/
+
+.skillsA {
+  background-color: var(--text-color-inverse);
+  padding-bottom: 30px;
+}
+
+.iconos {
+  display: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+/*---Diseño-Texto-images---*/
+.portafolio-txt {
+  color: var(--fourth-color);
+  font-size: 13px;
+  padding: 0;
+  margin: 0;
+}
+
+/*---Diseño-Imagenes-----*/
+.XL1 {
+  padding: 0;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  width: 30%;
+
+}
+
+/********--------------------**********/
+/**************Contacto****************/
+/********--------------------**********/
+
+.h2a {
+  color: var(--primary-color);
+  font-size: 50px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin: 0 20px auto;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+}
+
+.iconos-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: left;
+}
+
+.iconos-iconos1 {
+  font-size: 20px;
+  margin-left: 100px;
+  margin-right: 70px;
+  margin-bottom: 50px;
+  margin-top: 5px;
+  padding-top: 5px;
+  padding-bottom: 50px;
+  padding-right: 70px;
+  border-radius: 50px;
+}
+
+.iconos-img1 {
+  background-color: var(--iconos-color);
+  margin-top: 8px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.color {
+  color: var(--fourth-color);
+  font-size: 12px;
+  margin-left: 55px;
+  padding: 30px;
+  text-align: center;
+}
+}
+
+/*****************************************************/
+
+
+/********-------------------------------********/
+/********Diseño Experiencia y habilidades*******/
+/********-------------------------------********/
+
+.skills {
+  background-color: var(--fifth-color);
+  padding-bottom: 30px;
+}
+
+
+h2 {
+  color: var(--primary-color);
+  font-size: 50px;
+  padding-top: 10px;
+  padding-left: 0;
+  padding-bottom: 20px;
+  margin: 0 auto;
+  font-family: 'Inter', sans-serif;
+}
+
+.text1 {
+  color: var(--secundary-color);
+  font-size: 19px;
+  font-weight: 100;
+  width: auto;
+  font-family: 'Inter', sans-serif;
+  padding-left: 0;
+  padding-bottom: 10px;
+}
+
+.skills1 {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+h3 {
+  color: var(--primary-color);
+  font-size: 25px;
+  margin: 0 20px auto;
+  padding-top: 10px;
+  font-family: 'Inter', sans-serif;
+}
+
+code {
+  color: var(--negro-opaco);
+  font-family: 'Inter', sans-serif;
+  font-size: 26px;
+}
+
+/********--------------------**********/
+/************* habilidades*************/
+/********--------------------**********/
+.dtxt {
+  color: var(--primary-color);
+  padding-left: 200px;
+  padding-right: 13px;
+  margin-bottom: 50px;
+  margin-left: 140px;
+  margin-right: 290px;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 3px;
+  width: 80px;
+}
+.dtxt1 {
+  color: var(--primary-color);
+  padding-left: 200px;
+  padding-right: 1px;
+  margin-bottom: 50px;
+  margin-left: 140px;
+  margin-right: 290px;
+  width: 80px;
+  text-align: center;
+  font-size: 5px;
+}
+
+/********--------------------**********/
+/********Portafolio***********/
+/********--------------------**********/
+
+.skillsA {
+  background-color: var(--text-color-inverse);
+  padding-bottom: 30px;
+}
+
+.iconos {
+  display: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+/*---Diseño-Texto-images---*/
+.portafolio-txt {
+  color: var(--fourth-color);
+  font-size: 13px;
+  padding: 0;
+  margin: 0;
+}
+
+/*---Diseño-Imagenes-----*/
+.XL1 {
+  padding: 0;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  width: 30%;
+
+}
+
+/********--------------------**********/
+/**************Contacto****************/
+/********--------------------**********/
+
+.h2a {
+  color: var(--primary-color);
+  font-size: 50px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin: 0 20px auto;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+}
+
+.iconos-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: left;
+}
+
+.iconos-iconos1 {
+  font-size: 20px;
+  margin-left: 100px;
+  margin-right: 70px;
+  margin-bottom: 50px;
+  margin-top: 5px;
+  padding-top: 5px;
+  padding-bottom: 50px;
+  padding-right: 70px;
+  border-radius: 50px;
+}
+
+.iconos-img1 {
+  background-color: var(--iconos-color);
+  margin-top: 8px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.color {
+  color: var(--fourth-color);
+  font-size: 12px;
+  margin-left: 55px;
+  padding: 30px;
+  text-align: center;
+}
+
+/**************************************************************/
+
+
